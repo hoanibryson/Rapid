@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{58d52ce8-ad07-4d61-9ddc-b6e0b81b3d46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\gtest">
+      <UniqueIdentifier>{6012f176-9d8e-4b61-b2dc-d5c470566d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\gtest\Debug">
+      <UniqueIdentifier>{1c04af1e-82f5-47e2-a9b1-3b09c1a453f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\gtest\internal">
+      <UniqueIdentifier>{256211fb-f82d-4262-be1b-1879cd8f5d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\gtest\Release">
+      <UniqueIdentifier>{bf717d16-5daf-4616-9d17-fa0c402dc6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\gtest\internal\custom">
+      <UniqueIdentifier>{aa336b80-a78c-49c1-ad53-19417e47024d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-death-test-internal.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-filepath.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-internal.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-linked_ptr.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-param-util.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-param-util-generated.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-port.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-port-arch.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-string.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-tuple.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\gtest-type-util.h">
+      <Filter>Libraries\gtest\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\custom\gtest.h">
+      <Filter>Libraries\gtest\internal\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\custom\gtest-port.h">
+      <Filter>Libraries\gtest\internal\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\internal\custom\gtest-printers.h">
+      <Filter>Libraries\gtest\internal\custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest_pred_impl.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest_prod.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest-death-test.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest-message.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest-param-test.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest-printers.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest-spi.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest-test-part.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libraries\gtest\gtest-typed-test.h">
+      <Filter>Libraries\gtest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RapidUnitTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\Libraries\gtest\Debug\gtest_maind.lib">
+      <Filter>Libraries\gtest\Debug</Filter>
+    </Library>
+    <Library Include="..\Libraries\gtest\Debug\gtestd.lib">
+      <Filter>Libraries\gtest\Debug</Filter>
+    </Library>
+    <Library Include="..\Libraries\gtest\Release\gtest.lib">
+      <Filter>Libraries\gtest\Release</Filter>
+    </Library>
+    <Library Include="..\Libraries\gtest\Release\gtest_main.lib">
+      <Filter>Libraries\gtest\Release</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
